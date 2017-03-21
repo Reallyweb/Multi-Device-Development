@@ -328,10 +328,10 @@ footer {
   display: none;
   clear: both;
 }
-.directory > div {
+.directory div {
   width: 100%;
 }
-.directory > div:after {
+.directory div:after {
   content: "";
   display: none;
   clear: both;
@@ -370,7 +370,7 @@ footer {
 .shop {
   border-bottom: 1px solid #ccc;
 }
-.footer > li {
+.footer li {
   color: #888;
 }
 /*end*/
@@ -381,15 +381,6 @@ footer {
   content: "";
   display: none;
   clear: both;
-}
-.container .col-l-hide {
-  display: none;
-}
-.container .col-m-hide {
-  display: none;
-}
-.container .col-s-hide {
-  display: none;
 }
 .container > .row {
   width: 100%;
@@ -655,273 +646,256 @@ footer {
   right: 100%;
   float: left;
 }
-@media screen and (min-width: 735px) {
-  .container {
-    width: 100%;
-  }
-  .container .col-s-hide {
-    display: none;
-  }
-  .container .col-m-hide {
-    display: none;
-  }
-  .container .col-l-hide {
-    display: none;
-  }
-  .container > .row > .col-s-1 {
-    width: 8.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-1 {
-    width: 8.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-1 {
-    margin-left: 8.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-1 {
-    left: 8.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-1 {
-    right: 8.33333333%;
-    float: left;
-  }
-  .container > .row > .col-s-2 {
-    width: 16.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-2 {
-    width: 16.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-2 {
-    margin-left: 16.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-2 {
-    left: 16.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-2 {
-    right: 16.66666667%;
-    float: left;
-  }
-  .container > .row > .col-s-3 {
-    width: 25%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-3 {
-    width: 25%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-3 {
-    margin-left: 25%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-3 {
-    left: 25%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-3 {
-    right: 25%;
-    float: left;
-  }
-  .container > .row > .col-s-4 {
-    width: 33.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-4 {
-    width: 33.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-4 {
-    margin-left: 33.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-4 {
-    left: 33.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-4 {
-    right: 33.33333333%;
-    float: left;
-  }
-  .container > .row > .col-s-5 {
-    width: 41.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-5 {
-    width: 41.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-5 {
-    margin-left: 41.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-5 {
-    left: 41.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-5 {
-    right: 41.66666667%;
-    float: left;
-  }
-  .container > .row > .col-s-6 {
-    width: 50%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-6 {
-    width: 50%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-6 {
-    margin-left: 50%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-6 {
-    left: 50%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-6 {
-    right: 50%;
-    float: left;
-  }
-  .container > .row > .col-s-7 {
-    width: 58.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-7 {
-    width: 58.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-7 {
-    margin-left: 58.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-7 {
-    left: 58.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-7 {
-    right: 58.33333333%;
-    float: left;
-  }
-  .container > .row > .col-s-8 {
-    width: 66.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-8 {
-    width: 66.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-8 {
-    margin-left: 66.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-8 {
-    left: 66.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-8 {
-    right: 66.66666667%;
-    float: left;
-  }
-  .container > .row > .col-s-9 {
-    width: 75%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-9 {
-    width: 75%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-9 {
-    margin-left: 75%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-9 {
-    left: 75%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-9 {
-    right: 75%;
-    float: left;
-  }
-  .container > .row > .col-s-10 {
-    width: 83.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-10 {
-    width: 83.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-10 {
-    margin-left: 83.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-10 {
-    left: 83.33333333%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-10 {
-    right: 83.33333333%;
-    float: left;
-  }
-  .container > .row > .col-s-11 {
-    width: 91.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-11 {
-    width: 91.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-11 {
-    margin-left: 91.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-11 {
-    left: 91.66666667%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-11 {
-    right: 91.66666667%;
-    float: left;
-  }
-  .container > .row > .col-s-12 {
-    width: 100%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-12 {
-    width: 100%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-offset-12 {
-    margin-left: 100%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-left-12 {
-    left: 100%;
-    float: left;
-  }
-  .container-fluid > .row > .col-s-right-12 {
-    right: 100%;
-    float: left;
-  }
+.container > .row > .col-s-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-1 {
+  margin-left: 8.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-1 {
+  left: 8.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-1 {
+  right: 8.33333333%;
+  float: left;
+}
+.container > .row > .col-s-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-2 {
+  margin-left: 16.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-2 {
+  left: 16.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-2 {
+  right: 16.66666667%;
+  float: left;
+}
+.container > .row > .col-s-3 {
+  width: 25%;
+  float: left;
+}
+.container-fluid > .row > .col-s-3 {
+  width: 25%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-3 {
+  margin-left: 25%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-3 {
+  left: 25%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-3 {
+  right: 25%;
+  float: left;
+}
+.container > .row > .col-s-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-4 {
+  margin-left: 33.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-4 {
+  left: 33.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-4 {
+  right: 33.33333333%;
+  float: left;
+}
+.container > .row > .col-s-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-5 {
+  margin-left: 41.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-5 {
+  left: 41.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-5 {
+  right: 41.66666667%;
+  float: left;
+}
+.container > .row > .col-s-6 {
+  width: 50%;
+  float: left;
+}
+.container-fluid > .row > .col-s-6 {
+  width: 50%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-6 {
+  margin-left: 50%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-6 {
+  left: 50%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-6 {
+  right: 50%;
+  float: left;
+}
+.container > .row > .col-s-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-7 {
+  margin-left: 58.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-7 {
+  left: 58.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-7 {
+  right: 58.33333333%;
+  float: left;
+}
+.container > .row > .col-s-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-8 {
+  margin-left: 66.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-8 {
+  left: 66.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-8 {
+  right: 66.66666667%;
+  float: left;
+}
+.container > .row > .col-s-9 {
+  width: 75%;
+  float: left;
+}
+.container-fluid > .row > .col-s-9 {
+  width: 75%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-9 {
+  margin-left: 75%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-9 {
+  left: 75%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-9 {
+  right: 75%;
+  float: left;
+}
+.container > .row > .col-s-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-10 {
+  margin-left: 83.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-10 {
+  left: 83.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-10 {
+  right: 83.33333333%;
+  float: left;
+}
+.container > .row > .col-s-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-11 {
+  margin-left: 91.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-11 {
+  left: 91.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-11 {
+  right: 91.66666667%;
+  float: left;
+}
+.container > .row > .col-s-12 {
+  width: 100%;
+  float: left;
+}
+.container-fluid > .row > .col-s-12 {
+  width: 100%;
+  float: left;
+}
+.container-fluid > .row > .col-s-offset-12 {
+  margin-left: 100%;
+  float: left;
+}
+.container-fluid > .row > .col-s-left-12 {
+  left: 100%;
+  float: left;
+}
+.container-fluid > .row > .col-s-right-12 {
+  right: 100%;
+  float: left;
+}
+.col-m-hide {
+  display: block;
+}
+.col-l-hide {
+  display: block;
+}
+.col-s-hide {
+  display: none;
 }
 @media screen and (min-width: 768px) {
-  .container {
-    width: 100%;
-  }
-  .container .col-s-hide {
-    display: none;
-  }
-  .container .col-m-hide {
-    display: none;
-  }
-  .container .col-l-hide {
-    display: none;
-  }
   .container > .row > .col-m-1 {
     width: 8.33333333%;
     float: left;
@@ -1162,20 +1136,17 @@ footer {
     right: 100%;
     float: left;
   }
+  .col-s-hide {
+    display: block;
+  }
+  .col-l-hide {
+    display: block;
+  }
+  .col-m-hide {
+    display: none;
+  }
 }
 @media screen and (min-width: 1068px) {
-  .container {
-    width: 100%;
-  }
-  .container .col-s-hide {
-    display: none;
-  }
-  .container .col-m-hide {
-    display: none;
-  }
-  .container .col-l-hide {
-    display: none;
-  }
   .container > .row > .col-l-1 {
     width: 8.33333333%;
     float: left;
@@ -1415,5 +1386,14 @@ footer {
   .container-fluid > .row > .col-l-right-12 {
     right: 100%;
     float: left;
+  }
+  .col-s-hide {
+    display: block;
+  }
+  .col-m-hide {
+    display: block;
+  }
+  .col-l-hide {
+    display: none;
   }
 }
